@@ -1,0 +1,20 @@
+{
+  "run": "fenced-20261114-005546",
+  "fencing": 1,
+  "stop_monotonic": 264689.065759,
+  "resume_monotonic": 264729.106254,
+  "pause_seconds": 40.04049499996472,
+  "failover_seconds": 11.196412999997847,
+  "backup_restored_offset": 600,
+  "pointer_version": 1,
+  "accepted_writes": 1,
+  "pointer": {
+    "name": "B",
+    "distinct_pairs": 33585,
+    "occurrences_pairs": 158841,
+    "vacancies_matched": 6076,
+    "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b",
+    "epoch": 2
+  },
+  "full_pairs_equal": true
+}

@@ -1,0 +1,43 @@
+{"event": "session", "monotonic": 264619.759919, "utc": "2026-11-13T21:54:39Z", "pid": 42280, "state": "CONNECTED"}
+{"event": "leader", "monotonic": 264619.853319, "utc": "2026-11-13T21:54:40Z", "pid": 42280, "name": "A", "epoch": 1, "session_timeout_ms": 10000}
+{"event": "restore", "monotonic": 264619.85418, "utc": "2026-11-13T21:54:40Z", "pid": 42280, "name": "A", "offset": 0, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264620.693095, "utc": "2026-11-13T21:54:40Z", "pid": 42280, "name": "A", "offset": 200, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264621.524856, "utc": "2026-11-13T21:54:41Z", "pid": 42280, "name": "A", "offset": 400, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264622.354058, "utc": "2026-11-13T21:54:42Z", "pid": 42280, "name": "A", "offset": 600, "epoch": 1}
+WARNING:kazoo.client:Connection dropped: socket connection error: Connection reset by peer
+WARNING:kazoo.client:Transition to CONNECTING
+{"event": "session", "monotonic": 264662.517337, "utc": "2026-11-13T21:55:22Z", "pid": 42280, "state": "SUSPENDED"}
+WARNING:kazoo.client:Session has expired
+{"event": "session", "monotonic": 264662.519302, "utc": "2026-11-13T21:55:22Z", "pid": 42280, "state": "LOST"}
+{"event": "stale_checkpoint_rejected", "monotonic": 264662.519553, "utc": "2026-11-13T21:55:22Z", "pid": 42280, "name": "A", "offset": 800, "epoch": 1}
+{"event": "session", "monotonic": 264662.536338, "utc": "2026-11-13T21:55:22Z", "pid": 42280, "state": "CONNECTED"}
+{"event": "stale_checkpoint_rejected", "monotonic": 264663.35158, "utc": "2026-11-13T21:55:23Z", "pid": 42280, "name": "A", "offset": 1000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264664.195623, "utc": "2026-11-13T21:55:24Z", "pid": 42280, "name": "A", "offset": 1200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264665.038343, "utc": "2026-11-13T21:55:25Z", "pid": 42280, "name": "A", "offset": 1400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264665.890391, "utc": "2026-11-13T21:55:26Z", "pid": 42280, "name": "A", "offset": 1600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264666.730011, "utc": "2026-11-13T21:55:26Z", "pid": 42280, "name": "A", "offset": 1800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264667.587248, "utc": "2026-11-13T21:55:27Z", "pid": 42280, "name": "A", "offset": 2000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264668.440632, "utc": "2026-11-13T21:55:28Z", "pid": 42280, "name": "A", "offset": 2200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264669.292611, "utc": "2026-11-13T21:55:29Z", "pid": 42280, "name": "A", "offset": 2400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264670.156785, "utc": "2026-11-13T21:55:30Z", "pid": 42280, "name": "A", "offset": 2600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264671.017892, "utc": "2026-11-13T21:55:31Z", "pid": 42280, "name": "A", "offset": 2800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264671.880582, "utc": "2026-11-13T21:55:32Z", "pid": 42280, "name": "A", "offset": 3000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264672.755566, "utc": "2026-11-13T21:55:32Z", "pid": 42280, "name": "A", "offset": 3200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264673.61566, "utc": "2026-11-13T21:55:33Z", "pid": 42280, "name": "A", "offset": 3400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264674.488682, "utc": "2026-11-13T21:55:34Z", "pid": 42280, "name": "A", "offset": 3600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264675.353587, "utc": "2026-11-13T21:55:35Z", "pid": 42280, "name": "A", "offset": 3800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264676.237038, "utc": "2026-11-13T21:55:36Z", "pid": 42280, "name": "A", "offset": 4000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264677.119166, "utc": "2026-11-13T21:55:37Z", "pid": 42280, "name": "A", "offset": 4200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264677.994003, "utc": "2026-11-13T21:55:38Z", "pid": 42280, "name": "A", "offset": 4400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264678.882415, "utc": "2026-11-13T21:55:39Z", "pid": 42280, "name": "A", "offset": 4600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264679.765417, "utc": "2026-11-13T21:55:39Z", "pid": 42280, "name": "A", "offset": 4800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264680.655016, "utc": "2026-11-13T21:55:40Z", "pid": 42280, "name": "A", "offset": 5000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264681.53949, "utc": "2026-11-13T21:55:41Z", "pid": 42280, "name": "A", "offset": 5200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264682.422799, "utc": "2026-11-13T21:55:42Z", "pid": 42280, "name": "A", "offset": 5400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264683.314282, "utc": "2026-11-13T21:55:43Z", "pid": 42280, "name": "A", "offset": 5600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264684.223509, "utc": "2026-11-13T21:55:44Z", "pid": 42280, "name": "A", "offset": 5800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264685.159572, "utc": "2026-11-13T21:55:45Z", "pid": 42280, "name": "A", "offset": 6000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264686.087483, "utc": "2026-11-13T21:55:46Z", "pid": 42280, "name": "A", "offset": 6076, "epoch": 1}
+{"event": "verified", "monotonic": 264686.160807, "utc": "2026-11-13T21:55:46Z", "pid": 42280, "epoch": 1, "name": "A", "distinct_pairs": 33585, "occurrences_pairs": 158841, "vacancies_matched": 6076, "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b"}
+{"event": "записал результат", "monotonic": 264686.188005, "utc": "2026-11-13T21:55:46Z", "pid": 42280, "epoch": 1, "pointer_version": 2, "name": "A", "distinct_pairs": 33585, "occurrences_pairs": 158841, "vacancies_matched": 6076, "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b"}
+{"event": "session", "monotonic": 264686.188958, "utc": "2026-11-13T21:55:46Z", "pid": 42280, "state": "LOST"}

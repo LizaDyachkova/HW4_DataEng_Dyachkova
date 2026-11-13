@@ -1,0 +1,215 @@
+SERVER 1: zkServer.sh start-foreground PID=41960
+SERVER 2: zkServer.sh start-foreground PID=41982
+SERVER 3: zkServer.sh start-foreground PID=42005
+INITIAL server 1
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x500000055
+Mode: follower
+Node count: 24
+
+INITIAL server 2
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x600000000
+Mode: leader
+Node count: 24
+Proposal sizes last/min/max: -1/-1/-1
+
+INITIAL server 3
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x500000055
+Mode: follower
+Node count: 24
+
+SERVER 1: stop rc=0
+Stopping zookeeper ... STOPPED
+ZooKeeper JMX enabled by default
+Using config: /Users/lizadyachkova/Documents/Codex/2026-11-14/new-chat/outputs/HW4_DataEng/conf/1/zoo.cfg
+
+ONE SERVER DOWN: create /hw4/quorum/one-down SUCCESS
+ONE DOWN server 1
+[Errno 61] Connection refused
+ONE DOWN server 2
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 2
+Sent: 1
+Connections: 1
+Outstanding: 0
+Zxid: 0x600000006
+Mode: leader
+Node count: 23
+Proposal sizes last/min/max: 106/48/106
+
+ONE DOWN server 3
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/5.7692/23
+Received: 15
+Sent: 14
+Connections: 2
+Outstanding: 0
+Zxid: 0x600000006
+Mode: follower
+Node count: 23
+
+Connection dropped: socket connection broken
+Transition to CONNECTING
+Connection dropped: socket connection broken
+Transition to CONNECTING
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+SERVER 3: stop rc=0
+Stopping zookeeper ... STOPPED
+ZooKeeper JMX enabled by default
+Using config: /Users/lizadyachkova/Documents/Codex/2026-11-14/new-chat/outputs/HW4_DataEng/conf/3/zoo.cfg
+
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+TWO DOWN server 1
+[Errno 61] Connection refused
+TWO DOWN server 2
+This ZooKeeper instance is not currently serving requests
+
+TWO DOWN server 3
+[Errno 61] Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection broken
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection error: Connection refused
+Connection dropped: socket connection broken
+Failed connecting to Zookeeper within the connection retry policy.
+TWO SERVERS DOWN: client connection TIMEOUT, quorum unavailable
+SERVER 1: zkServer.sh start-foreground PID=42145
+SERVER 3: zkServer.sh start-foreground PID=42166
+Failed connecting to Zookeeper within the connection retry policy.
+RESTORED: create SUCCESS
+RESTORED server 1
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x700000002
+Mode: follower
+Node count: 24
+
+RESTORED server 2
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 8/12.5/17
+Received: 3
+Sent: 2
+Connections: 2
+Outstanding: 0
+Zxid: 0x700000002
+Mode: leader
+Node count: 24
+Proposal sizes last/min/max: 107/48/107
+
+RESTORED server 3
+Zookeeper version: 3.9.6-a355171b081b5b60749db8f19cca1528b0df936f, built on 2026-09-03 19:29 UTC
+Latency min/avg/max: 0/0.0/0
+Received: 1
+Sent: 0
+Connections: 1
+Outstanding: 0
+Zxid: 0x700000002
+Mode: follower
+Node count: 24
+
+EPHEMERAL before quit: ZnodeStat(czxid=30064771078, mzxid=30064771078, ctime=1794606877840, mtime=1794606877840, version=0, cversion=0, aversion=0, ephemeralOwner=144120816296394753, dataLength=5, numChildren=0, pzxid=30064771078)
+EPHEMERAL after creator quit: None (deleted)
+unfenced-20261114-005439: SIGSTOP A pid=42280 monotonic=264622.453731
+unfenced-20261114-005439: B leader after 11.802 s
+{
+  "run": "unfenced-20261114-005439",
+  "fencing": 0,
+  "stop_monotonic": 264622.453731,
+  "resume_monotonic": 264662.49866,
+  "pause_seconds": 40.04492899996694,
+  "failover_seconds": 11.802054999978282,
+  "backup_restored_offset": 600,
+  "pointer_version": 2,
+  "accepted_writes": 2,
+  "pointer": {
+    "name": "A",
+    "distinct_pairs": 33585,
+    "occurrences_pairs": 158841,
+    "vacancies_matched": 6076,
+    "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b",
+    "epoch": 1
+  },
+  "full_pairs_equal": true
+}
+fenced-20261114-005546: SIGSTOP A pid=42746 monotonic=264689.065759
+fenced-20261114-005546: B leader after 11.196 s
+{
+  "run": "fenced-20261114-005546",
+  "fencing": 1,
+  "stop_monotonic": 264689.065759,
+  "resume_monotonic": 264729.106254,
+  "pause_seconds": 40.04049499996472,
+  "failover_seconds": 11.196412999997847,
+  "backup_restored_offset": 600,
+  "pointer_version": 1,
+  "accepted_writes": 1,
+  "pointer": {
+    "name": "B",
+    "distinct_pairs": 33585,
+    "occurrences_pairs": 158841,
+    "vacancies_matched": 6076,
+    "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b",
+    "epoch": 2
+  },
+  "full_pairs_equal": true
+}
+SERVER 1: stop rc=0
+Stopping zookeeper ... STOPPED
+ZooKeeper JMX enabled by default
+Using config: /Users/lizadyachkova/Documents/Codex/2026-11-14/new-chat/outputs/HW4_DataEng/conf/1/zoo.cfg
+
+SERVER 2: stop rc=0
+Stopping zookeeper ... STOPPED
+ZooKeeper JMX enabled by default
+Using config: /Users/lizadyachkova/Documents/Codex/2026-11-14/new-chat/outputs/HW4_DataEng/conf/2/zoo.cfg
+
+SERVER 3: stop rc=0
+Stopping zookeeper ... STOPPED
+ZooKeeper JMX enabled by default
+Using config: /Users/lizadyachkova/Documents/Codex/2026-11-14/new-chat/outputs/HW4_DataEng/conf/3/zoo.cfg
+

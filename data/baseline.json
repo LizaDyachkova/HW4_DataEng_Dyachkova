@@ -1,0 +1,9 @@
+{
+  "rows_scanned": 229388,
+  "vacancies_matched": 6076,
+  "distinct_pairs": 33585,
+  "occurrences_pairs": 158841,
+  "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b",
+  "source_sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+  "source_size": 847619384
+}

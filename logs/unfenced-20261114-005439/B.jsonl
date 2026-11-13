@@ -1,0 +1,34 @@
+{"event": "session", "monotonic": 264620.061135, "utc": "2026-11-13T21:54:40Z", "pid": 42288, "state": "CONNECTED"}
+{"event": "leader", "monotonic": 264634.255786, "utc": "2026-11-13T21:54:54Z", "pid": 42288, "name": "B", "epoch": 2, "session_timeout_ms": 10000}
+{"event": "restore", "monotonic": 264634.262023, "utc": "2026-11-13T21:54:54Z", "pid": 42288, "name": "B", "offset": 600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264635.105616, "utc": "2026-11-13T21:54:55Z", "pid": 42288, "name": "B", "offset": 800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264635.945682, "utc": "2026-11-13T21:54:56Z", "pid": 42288, "name": "B", "offset": 1000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264636.780764, "utc": "2026-11-13T21:54:56Z", "pid": 42288, "name": "B", "offset": 1200, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264637.617337, "utc": "2026-11-13T21:54:57Z", "pid": 42288, "name": "B", "offset": 1400, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264638.458186, "utc": "2026-11-13T21:54:58Z", "pid": 42288, "name": "B", "offset": 1600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264639.300121, "utc": "2026-11-13T21:54:59Z", "pid": 42288, "name": "B", "offset": 1800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264640.157239, "utc": "2026-11-13T21:55:00Z", "pid": 42288, "name": "B", "offset": 2000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264640.999925, "utc": "2026-11-13T21:55:01Z", "pid": 42288, "name": "B", "offset": 2200, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264641.858585, "utc": "2026-11-13T21:55:02Z", "pid": 42288, "name": "B", "offset": 2400, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264642.704545, "utc": "2026-11-13T21:55:02Z", "pid": 42288, "name": "B", "offset": 2600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264643.567776, "utc": "2026-11-13T21:55:03Z", "pid": 42288, "name": "B", "offset": 2800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264644.429303, "utc": "2026-11-13T21:55:04Z", "pid": 42288, "name": "B", "offset": 3000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264645.285896, "utc": "2026-11-13T21:55:05Z", "pid": 42288, "name": "B", "offset": 3200, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264646.165429, "utc": "2026-11-13T21:55:06Z", "pid": 42288, "name": "B", "offset": 3400, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264647.028761, "utc": "2026-11-13T21:55:07Z", "pid": 42288, "name": "B", "offset": 3600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264647.910586, "utc": "2026-11-13T21:55:08Z", "pid": 42288, "name": "B", "offset": 3800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264648.794421, "utc": "2026-11-13T21:55:08Z", "pid": 42288, "name": "B", "offset": 4000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264649.671005, "utc": "2026-11-13T21:55:09Z", "pid": 42288, "name": "B", "offset": 4200, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264650.558867, "utc": "2026-11-13T21:55:10Z", "pid": 42288, "name": "B", "offset": 4400, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264651.44939, "utc": "2026-11-13T21:55:11Z", "pid": 42288, "name": "B", "offset": 4600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264652.316921, "utc": "2026-11-13T21:55:12Z", "pid": 42288, "name": "B", "offset": 4800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264653.206318, "utc": "2026-11-13T21:55:13Z", "pid": 42288, "name": "B", "offset": 5000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264654.094077, "utc": "2026-11-13T21:55:14Z", "pid": 42288, "name": "B", "offset": 5200, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264654.970959, "utc": "2026-11-13T21:55:15Z", "pid": 42288, "name": "B", "offset": 5400, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264655.860875, "utc": "2026-11-13T21:55:16Z", "pid": 42288, "name": "B", "offset": 5600, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264656.74309, "utc": "2026-11-13T21:55:16Z", "pid": 42288, "name": "B", "offset": 5800, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264657.642677, "utc": "2026-11-13T21:55:17Z", "pid": 42288, "name": "B", "offset": 6000, "epoch": 2}
+{"event": "checkpoint", "monotonic": 264658.556754, "utc": "2026-11-13T21:55:18Z", "pid": 42288, "name": "B", "offset": 6076, "epoch": 2}
+{"event": "verified", "monotonic": 264658.611045, "utc": "2026-11-13T21:55:18Z", "pid": 42288, "epoch": 2, "name": "B", "distinct_pairs": 33585, "occurrences_pairs": 158841, "vacancies_matched": 6076, "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b"}
+{"event": "записал результат", "monotonic": 264658.645664, "utc": "2026-11-13T21:55:18Z", "pid": 42288, "epoch": 2, "pointer_version": 1, "name": "B", "distinct_pairs": 33585, "occurrences_pairs": 158841, "vacancies_matched": 6076, "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b"}
+{"event": "session", "monotonic": 264658.646492, "utc": "2026-11-13T21:55:18Z", "pid": 42288, "state": "LOST"}

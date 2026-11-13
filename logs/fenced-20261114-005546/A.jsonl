@@ -1,0 +1,43 @@
+{"event": "session", "monotonic": 264686.381438, "utc": "2026-11-13T21:55:46Z", "pid": 42746, "state": "CONNECTED"}
+{"event": "leader", "monotonic": 264686.467596, "utc": "2026-11-13T21:55:46Z", "pid": 42746, "name": "A", "epoch": 1, "session_timeout_ms": 10000}
+{"event": "restore", "monotonic": 264686.468454, "utc": "2026-11-13T21:55:46Z", "pid": 42746, "name": "A", "offset": 0, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264687.309912, "utc": "2026-11-13T21:55:47Z", "pid": 42746, "name": "A", "offset": 200, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264688.136366, "utc": "2026-11-13T21:55:48Z", "pid": 42746, "name": "A", "offset": 400, "epoch": 1}
+{"event": "checkpoint", "monotonic": 264688.972439, "utc": "2026-11-13T21:55:49Z", "pid": 42746, "name": "A", "offset": 600, "epoch": 1}
+WARNING:kazoo.client:Connection dropped: socket connection broken
+WARNING:kazoo.client:Transition to CONNECTING
+{"event": "session", "monotonic": 264729.132872, "utc": "2026-11-13T21:56:29Z", "pid": 42746, "state": "SUSPENDED"}
+{"event": "stale_checkpoint_rejected", "monotonic": 264729.133125, "utc": "2026-11-13T21:56:29Z", "pid": 42746, "name": "A", "offset": 800, "epoch": 1}
+WARNING:kazoo.client:Session has expired
+{"event": "session", "monotonic": 264729.135842, "utc": "2026-11-13T21:56:29Z", "pid": 42746, "state": "LOST"}
+{"event": "session", "monotonic": 264729.151524, "utc": "2026-11-13T21:56:29Z", "pid": 42746, "state": "CONNECTED"}
+{"event": "stale_checkpoint_rejected", "monotonic": 264729.972613, "utc": "2026-11-13T21:56:30Z", "pid": 42746, "name": "A", "offset": 1000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264730.810745, "utc": "2026-11-13T21:56:30Z", "pid": 42746, "name": "A", "offset": 1200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264731.664419, "utc": "2026-11-13T21:56:31Z", "pid": 42746, "name": "A", "offset": 1400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264732.506284, "utc": "2026-11-13T21:56:32Z", "pid": 42746, "name": "A", "offset": 1600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264733.360065, "utc": "2026-11-13T21:56:33Z", "pid": 42746, "name": "A", "offset": 1800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264734.205878, "utc": "2026-11-13T21:56:34Z", "pid": 42746, "name": "A", "offset": 2000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264735.063511, "utc": "2026-11-13T21:56:35Z", "pid": 42746, "name": "A", "offset": 2200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264735.922062, "utc": "2026-11-13T21:56:36Z", "pid": 42746, "name": "A", "offset": 2400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264736.770857, "utc": "2026-11-13T21:56:36Z", "pid": 42746, "name": "A", "offset": 2600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264737.629002, "utc": "2026-11-13T21:56:37Z", "pid": 42746, "name": "A", "offset": 2800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264738.479875, "utc": "2026-11-13T21:56:38Z", "pid": 42746, "name": "A", "offset": 3000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264739.353908, "utc": "2026-11-13T21:56:39Z", "pid": 42746, "name": "A", "offset": 3200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264740.224495, "utc": "2026-11-13T21:56:40Z", "pid": 42746, "name": "A", "offset": 3400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264741.089802, "utc": "2026-11-13T21:56:41Z", "pid": 42746, "name": "A", "offset": 3600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264741.968828, "utc": "2026-11-13T21:56:42Z", "pid": 42746, "name": "A", "offset": 3800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264742.843647, "utc": "2026-11-13T21:56:43Z", "pid": 42746, "name": "A", "offset": 4000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264743.73008, "utc": "2026-11-13T21:56:43Z", "pid": 42746, "name": "A", "offset": 4200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264744.618471, "utc": "2026-11-13T21:56:44Z", "pid": 42746, "name": "A", "offset": 4400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264745.498142, "utc": "2026-11-13T21:56:45Z", "pid": 42746, "name": "A", "offset": 4600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264746.396679, "utc": "2026-11-13T21:56:46Z", "pid": 42746, "name": "A", "offset": 4800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264747.284455, "utc": "2026-11-13T21:56:47Z", "pid": 42746, "name": "A", "offset": 5000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264748.169586, "utc": "2026-11-13T21:56:48Z", "pid": 42746, "name": "A", "offset": 5200, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264749.064077, "utc": "2026-11-13T21:56:49Z", "pid": 42746, "name": "A", "offset": 5400, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264749.953376, "utc": "2026-11-13T21:56:50Z", "pid": 42746, "name": "A", "offset": 5600, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264750.868131, "utc": "2026-11-13T21:56:51Z", "pid": 42746, "name": "A", "offset": 5800, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264751.759666, "utc": "2026-11-13T21:56:51Z", "pid": 42746, "name": "A", "offset": 6000, "epoch": 1}
+{"event": "stale_checkpoint_rejected", "monotonic": 264752.653299, "utc": "2026-11-13T21:56:52Z", "pid": 42746, "name": "A", "offset": 6076, "epoch": 1}
+{"event": "verified", "monotonic": 264752.718363, "utc": "2026-11-13T21:56:52Z", "pid": 42746, "epoch": 1, "name": "A", "distinct_pairs": 33585, "occurrences_pairs": 158841, "vacancies_matched": 6076, "pairs_sha256": "df5334afe0fac61b7e2a6dfe32d129e874d3e85af3d5f437264f5bdddff7661b"}
+{"event": "BadVersionError", "monotonic": 264752.742429, "utc": "2026-11-13T21:56:52Z", "pid": 42746, "name": "A", "epoch": 1, "reason": "Получатель отклонил устаревшую эпоху"}
+{"event": "session", "monotonic": 264752.74479, "utc": "2026-11-13T21:56:52Z", "pid": 42746, "state": "LOST"}

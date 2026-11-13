@@ -1,0 +1,10 @@
+openjdk version "17.0.17" 2025-10-21
+OpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)
+OpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)
+
+Python: 3.9.6 (default, Apr 30 2025, 02:07:17) 
+[Clang 17.0.0 (clang-1700.0.13.5)]
+Platform: macOS-15.5-arm64-arm-64bit
+Kazoo: 2.10.0
+Kazoo source: https://github.com/python-zk/kazoo tag 2.10.0 commit 721faf247ac3d109892fb555b16305c9697a01d5
+Dependency installed from official source because PyPI timed out.

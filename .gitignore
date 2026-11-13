@@ -1,0 +1,7 @@
+runtime/
+.venv/
+state/
+__pycache__/
+*.pyc
+
+/report/
